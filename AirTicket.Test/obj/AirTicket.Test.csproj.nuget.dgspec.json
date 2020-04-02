@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Shilpa\\AirTicket\\AirTicket.Test\\AirTicket.Test.csproj": {}
+  },
+  "projects": {
+    "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\AirTicket.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\AirTicket.BusinessLayer.csproj",
+        "projectName": "AirTicket.BusinessLayer",
+        "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\AirTicket.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj"
+              },
+              "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj",
+        "projectName": "AirTicket.DataLayer",
+        "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "FluentNHibernate": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj",
+        "projectName": "AirTicket.Entities",
+        "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Shilpa\\AirTicket\\AirTicket.Test\\AirTicket.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Shilpa\\AirTicket\\AirTicket.Test\\AirTicket.Test.csproj",
+        "projectName": "AirTicket.Test",
+        "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.Test\\AirTicket.Test.csproj",
+        "packagesPath": "C:\\Users\\SHINE\\.nuget\\packages\\",
+        "outputPath": "E:\\Shilpa\\AirTicket\\AirTicket.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SHINE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\AirTicket.BusinessLayer.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.BusinessLayer\\AirTicket.BusinessLayer.csproj"
+              },
+              "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.DataLayer\\AirTicket.DataLayer.csproj"
+              },
+              "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj": {
+                "projectPath": "E:\\Shilpa\\AirTicket\\AirTicket.Entities\\AirTicket.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
